@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Luis Garcia"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Heyy, soy Luis Garcia"
+					tagline="+1 año de experiencia. Desarrollador Full Stack y Apasionado por la Tecnología. Enfocado en la creación de aplicaciones web innovadoras."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Desarrollador</Pill>
+						<Pill><Icon icon="rocket-launch" size="1.33em" /> Innovador</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" /> Creativo</Pill>						
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
-					width="300"
+					alt="Luis Garcia"
+					width="500"
 					height="300"
-					src="/assets/portrait.jpg"
+					src="/assets/portrait2.jpg"
 				/>
 			</header>
 
@@ -53,33 +53,33 @@ const projects = (await getCollection('work'))
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-background with-cta">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
-				</header>
+		<!-- Sección de Trabajo -->
+		<section class="section with-background with-cta">
+			<header class="section-header stack gap-2 lg:gap-4">
+				<h3>Proyectos Destacados</h3>
+				<p>Explora una selección de proyectos en los que he trabajado.</p>
+			</header>
 
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<PortfolioPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
+			<div class="gallery">
+				<Grid variant="offset">
+					{
+						projects.map((project) => (
+							<li>
+								<PortfolioPreview project={project} />
+							</li>
+						))
+					}
+				</Grid>
+			</div>
 
-				<div class="cta">
-					<CallToAction href="/work/">
-						View All
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
-				</div>
-			</section>
-
-			<section class="section with-background bg-variant">
+			<div class="cta">
+				<CallToAction href="/work/">
+					Ver Más
+					<Icon icon="arrow-right" size="1.2em" />
+				</CallToAction>
+			</div>
+		</section>
+			<!-- <section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mentions</h3>
 					<p>
@@ -99,7 +99,7 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-			</section>
+			</section> -->
 		</main>
 
 		<ContactCTA />
