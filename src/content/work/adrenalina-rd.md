@@ -1,7 +1,7 @@
 ---
 title: AdrenaliaRD 🏍️
 publishDate: 2024-09-01 00:00:00
-img: /assets/projects/adrenalinard/adrenalina_6.png
+img: /assets/projects/adrenalinard/adrenalina_6.jpeg
 img_alt: Interfaz de la plataforma de rifas online AdrenaliaRD
 description: |
   Plataforma innovadora para la gestión eficiente de rifas online, diseñada para simplificar la organización de eventos y la participación de usuarios.
@@ -13,12 +13,12 @@ tags:
   - AWS S3
   - API Integration
   - Web Development
-images:
-  - /assets/projects/adrenalinard/adrenalina_1.png
-  - /assets/projects/adrenalinard/adrenalina_2.png
-  - /assets/projects/adrenalinard/adrenalina_3.png
-  - /assets/projects/adrenalinard/adrenalina_4.png
-  - /assets/projects/adrenalinard/adrenalina_5.png
+# images:
+#   - /assets/projects/adrenalinard/adrenalina_1.png
+#   - /assets/projects/adrenalinard/adrenalina_2.png
+#   - /assets/projects/adrenalinard/adrenalina_3.png
+#   - /assets/projects/adrenalinard/adrenalina_4.png
+#   - /assets/projects/adrenalinard/adrenalina_5.png
 ---
 
 <!-- > La innovación distingue a un líder de un seguidor. -->

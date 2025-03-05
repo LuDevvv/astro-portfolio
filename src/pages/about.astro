@@ -1,165 +1,181 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="Sobre Mí | Ludevv" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-			title="Sobre Mí"
-			tagline="Gracias por visitar. Lee a continuación para conocer más sobre mí y mi experiencia."
-		>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout title="Sobre Mí | Ludevv">
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="Sobre Mí"
+        tagline="Gracias por visitar. Lee a continuación para conocer más sobre mí y mi experiencia."
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/at-work.jpg"
+          alt="Jeanine White at work with a colleague"
+        />
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						¡Hola! 👋 Soy Luis. Mi carrera en programación comenzó a una edad temprana, cuando empecé a desarrollar juegos web utilizando canvas. Desde entonces, he continuado aprendiendo y creciendo en el mundo de la tecnología, siempre en busca de nuevos desafíos y oportunidades para innovar.
-					</p>
-				</div>
-			</section>
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p>
+            Mi pasión por la tecnología arrancó desarrollando juegos web con
+            canvas, transformando líneas de código en experiencias interactivas.
+            Desde entonces, he convertido cada desafío en una oportunidad de
+            crecimiento, navegando el universo del desarrollo con curiosidad y
+            determinación. Mi viaje no es solo sobre escribir código, sino sobre
+            crear soluciones que conecten, inspiren y transformen.
+          </p>
+        </div>
+      </section>
 
+      <section>
+        <h2 class="section-title">Experiencia Profesional</h2>
+        <div class="content">
+          <p>
+            <strong>Grupo Chavon</strong><br />
+            Desarrollador FullStack · 8 meses
+          </p>
+          <ul>
+            <li>
+              Desarrollé interfaces atractivas mejorando la experiencia de
+              usuario en un 40%.
+            </li>
+            <li>
+              Integré servicios de Google Drive y Pusher para comunicación en
+              tiempo real.
+            </li>
+            <li>
+              Implementé sistemas de chat y calendarios dinámicos que
+              optimizaron la productividad del equipo.
+            </li>
+          </ul>
+          <p>
+            <strong>Tecnologías:</strong><br />
+            React, JavaScript, Tailwind CSS, Laravel, MySQL, APIs
+          </p>
 
+          <br />
 
-			<section>
-				<h2 class="section-title">Experiencia Profesional</h2>
-				<div class="content">
-					<p>
-						<strong>Grupo Chavon</strong><br>
-						Desarrollador FullStack - 8 meses
-					</p>
-					<ul>
-						<li>Diseñar interfaces de usuario atractivas y facilitar la navegación.</li>
-						<li>Integrar servicios como Google Drive y Pusher para gestionar archivos, comunicación en tiempo real y notificaciones.</li>
-						<li>Desarrollar sistemas de chat en tiempo real para mejorar la comunicación.</li>
-						<li>Gestionar tareas complejas con calendarios dinámicos para una mejor organización.</li>
-					</ul>
-					<p>
-						<strong>Logros:</strong><br>
-						<ul>
-							<li>Optimización de la experiencia del usuario con interfaces intuitivas y navegabilidad.</li>
-							<li>Integración exitosa de servicios para una plataforma más funcional y eficiente.</li>
-							<li>Implementación de un sistema de gestión de tareas para la organización eficiente de tareas.</li>
-						</ul>
-					</p>
-					<p>
-						<strong>Tecnologías:</strong><br>
-						React, JavaScript, HTML, Tailwind CSS, Laravel, MySQL, APIs
-					</p>
+          <p>
+            <strong>Azteli</strong><br />
+            Frontend Developer · 1 año
+          </p>
+          <ul>
+            <li>
+              Desarrollé una aplicación de menús digitales para restaurantes,
+              mejorando la experiencia de los clientes y la gestión de pedidos.
+            </li>
+            <li>
+              Creé dashboards administrativos con paneles de control intuitivos
+              para seguimiento de ventas y rendimiento.
+            </li>
+            <li>
+              Implementé páginas web responsivas y dinámicas para diferentes
+              proyectos de la empresa.
+            </li>
+            <li>
+              Optimicé procesos internos mediante soluciones tecnológicas
+              personalizadas.
+            </li>
+          </ul>
+          <p>
+            <strong>Tecnologías:</strong><br />
+            React, TypeScript, Astro, NestJS, PostgreSQL, Railway
+          </p>
+        </div>
+      </section>
 
+      <section>
+        <h2 class="section-title">Habilidades</h2>
+        <div class="content">
+          <p>
+            Typescript, React, NestJS, SQL, Firebase, Node.js, Express,
+            Tailwind, HTML, CSS, Git, Github,
+          </p>
+        </div>
+      </section>
 
-					<br>
+      <section>
+        <h2 class="section-title">Educación</h2>
+        <div class="content">
+          <p>
+            <strong>Politécnico Calasanz San Eduardo</strong><br />
+            Gestión y Desarrollo de Aplicaciones
+          </p>
+          <br />
+          <p>
+            <strong>Instituto Tecnológico de las Américas (ITLA)</strong>
+            <br />
+            Técnico Superior en Desarrollo de Software
+          </p>
+        </div>
+      </section>
+    </main>
 
-					<p>
-						<strong>Azteli - Actualidad</strong><br>
-						Frontend Developer - 1 mes
-					</p>
-					<ul>
-						<li>Diseñar componentes reutilizables para librerías de componentes.</li>
-						<li>Crear landing pages dinámicas, responsivas e interactivas a medida.</li>
-					</ul>
-					<p>
-						<strong>Tecnologías:</strong><br>
-						React, TypeScript, Astro, Sass
-					</p>
-				</div>
-			</section>
-
-			<section>
-				<h2 class="section-title">Habilidades</h2>
-				<div class="content">
-					<p>
-						Typescript, TailwindCSS, HTML, CSS, React, Laravel, Git, Github, SQL, Firebase, Node.js, Express
-					</p>
-				</div>
-			</section>
-
-			<section>
-				<h2 class="section-title">Educación</h2>
-				<div class="content">
-					<p>
-						<strong>Politécnico Calasanz San Eduardo</strong><br>
-						Gestión y Desarrollo de Aplicaciones
-					</p>
-					<br>
-					<p>
-						<strong>Instituto Tecnológico de las Américas (ITLA) - Actualidad</strong>
-						<br>
-						Técnico Superior en Desarrollo de Software
-					</p>
-				</div>
-			</section>
-			
-		</main>
-
-		<ContactCTA />
-	</div>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
